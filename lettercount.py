@@ -9,9 +9,18 @@ contents = twain.read()
 #close the file, because we have everything in the contents
 twain.close()
 
-print len(contents)
+contents = contents.lower()
 
-#contents.lower()
+print contents
+
+# len(contents)
+# l = ['a', 'b', 'c']
+
+# print l[0]
+#convert letters into numbers 
+
+#loop numbers dict and then think about how to access them with a list
+
 
 # counter = 0
 # for words in content
